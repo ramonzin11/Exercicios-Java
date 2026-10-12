@@ -10,6 +10,18 @@ O objetivo é consolidar os fundamentos da linguagem, desde a lógica básica at
 
 ---
 
+## 🏆 Projeto em Destaque: Gestor de Almoxarifado
+
+O projeto mais completo do repositório — um sistema de gestão real com múltiplos módulos integrados, desenvolvido para aplicar conceitos avançados de algoritmos e estruturas de dados em um cenário prático.
+
+**🚀 Principais Desafios e Soluções:**
+- **Otimização de Busca:** Implementação de **Busca Binária** para consultas ultrarrápidas de produtos por ID.
+- **Gestão de Dados:** Sincronização de informações utilizando **arrays paralelos**.
+- **Ordenação:** Utilização do algoritmo **Selection Sort** para organizar os dados antes das consultas.
+- **Regras de Negócio:** Geração de relatórios financeiros (valor patrimonial) e sistema de alertas para estoque crítico.
+
+---
+
 ## 📁 Estrutura do Repositório
 
 ### 📦 ARRAYS
@@ -114,19 +126,6 @@ O objetivo é consolidar os fundamentos da linguagem, desde a lógica básica at
 
 ---
 
-## 🏆 Projeto em Destaque: Gestor de Almoxarifado
-
-O projeto mais completo do repositório — um sistema de gestão real com múltiplos módulos integrados.
-
-**Funcionalidades:**
-- Cadastro de produtos com arrays paralelos sincronizados
-- Busca Binária para consulta eficiente por ID
-- Ordenação automática via Selection Sort antes da busca
-- Relatório geral com valor patrimonial total e contagem de itens
-- Alerta automático para produtos com estoque crítico
-
----
-
 ## 📌 Status dos estudos
 
 - [x] Lógica de programação
@@ -135,7 +134,7 @@ O projeto mais completo do repositório — um sistema de gestão real com múlt
 - [x] Vetores e Matrizes
 - [x] Algoritmos de ordenação (Bubble, Insertion, Selection Sort)
 - [x] Busca Binária
-- [ ] Métodos e funções
+- [x] Métodos e funções
 - [ ] Orientação a objetos (POO)
 
 ---
@@ -146,18 +145,16 @@ Você precisará do JDK 17 ou superior instalado.
 
 ```bash
 # Clone o repositório
-git clone https://github.com/ramonzin11/Exerc-cios-java.git
+git clone [https://github.com/ramonzin11/Exerc-cios-java.git](https://github.com/ramonzin11/Exerc-cios-java.git)
 
-# Acesse a pasta desejada e compile
-javac NomeDoArquivo.java
+# Entre na pasta do repositório
+cd Exerc-cios-java
+
+# Navegue até a pasta do arquivo que deseja executar (ex: ARRAYS/Matrizes)
+cd ARRAYS/Matrizes
+
+# Compile o arquivo
+javac CadastroDeAlunos.java
 
 # Execute
-java NomeDoArquivo
-```
-
----
-
-## 📬 Contato
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramon-faria/)
-[![E-mail](https://img.shields.io/badge/E--mail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rmfaria12@hotmail.com)
+java CadastroDeAlunos
