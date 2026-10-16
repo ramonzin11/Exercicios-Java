@@ -10,23 +10,21 @@ O objetivo é consolidar os fundamentos da linguagem, desde a lógica básica at
 
 ---
 
-## 🏆 Projeto em Destaque: Gestor de Almoxarifado
-
-O projeto mais completo do repositório — um sistema de gestão real com múltiplos módulos integrados, desenvolvido para aplicar conceitos avançados de algoritmos e estruturas de dados em um cenário prático.
-
-**🚀 Principais Desafios e Soluções:**
-- **Otimização de Busca:** Implementação de **Busca Binária** para consultas ultrarrápidas de produtos por ID.
-- **Gestão de Dados:** Sincronização de informações utilizando **arrays paralelos**.
-- **Ordenação:** Utilização do algoritmo **Selection Sort** para organizar os dados antes das consultas.
-- **Regras de Negócio:** Geração de relatórios financeiros (valor patrimonial) e sistema de alertas para estoque crítico.
-
----
-
 ## 📁 Estrutura do Repositório
+
+### ☕ POO / Orientação a Objetos
+
+**Classes e Testes/**
+
+| Arquivo | Descrição |
+|---|---|
+| `Veterinario.java` | Classe de domínio estruturada com atributos, métodos void, com retorno e programação defensiva |
+| `ClinicaTeste.java` | Classe executável (main) para instanciação de objetos e testes comportamentais |
 
 ### 📦 ARRAYS
 
 **Vetores/**
+
 | Arquivo | Descrição |
 |---|---|
 | `CadastroDeNotas.java` | Vetor de 5 notas com acumulador, exibição e cálculo de média |
@@ -36,6 +34,7 @@ O projeto mais completo do repositório — um sistema de gestão real com múlt
 | `ControleDeEstoque.java` | Arrays paralelos com alerta de estoque abaixo do mínimo |
 
 **Matrizes/**
+
 | Arquivo | Descrição |
 |---|---|
 | `CadastroDeAlunos.java` | Matriz 3x3 com cadastro de notas por aluno e prova |
@@ -45,6 +44,7 @@ O projeto mais completo do repositório — um sistema de gestão real com múlt
 | `TabelaDeVendas.java` | Matriz de vendas com total por vendedor |
 
 **Ordenacoes/BOLHA/**
+
 | Arquivo | Descrição |
 |---|---|
 | `FiltroDePrecos.java` | Bubble Sort crescente e decrescente em array de preços |
@@ -54,6 +54,7 @@ O projeto mais completo do repositório — um sistema de gestão real com múlt
 | `OrdenacaoDeIdades.java` | Bubble Sort em idades digitadas pelo usuário |
 
 **Ordenacoes/INSERCAO/**
+
 | Arquivo | Descrição |
 |---|---|
 | `OrganizadorDeEntregas.java` | Insertion Sort com contador de deslocamentos em logística |
@@ -63,6 +64,7 @@ O projeto mais completo do repositório — um sistema de gestão real com múlt
 | `PlacarDeTorneio.java` | Insertion Sort em pontuações digitadas pelo usuário |
 
 **Ordenacoes/SELECAO/**
+
 | Arquivo | Descrição |
 |---|---|
 | `OrdenacaoDeEstoque.java` | Selection Sort em array de estoque crescente |
@@ -76,6 +78,7 @@ O projeto mais completo do repositório — um sistema de gestão real com múlt
 ### 🔁 Estruturas-Loop
 
 **FOR/**
+
 | Arquivo | Descrição |
 |---|---|
 | `TabuadaCompleta.java` | Tabuada de 1 a 10 de qualquer número |
@@ -85,6 +88,7 @@ O projeto mais completo do repositório — um sistema de gestão real com múlt
 | `CalculadorDeFatorial.java` | Cálculo de fatorial com acumulador de multiplicação |
 
 **WHILE/**
+
 | Arquivo | Descrição |
 |---|---|
 | `ValidacaoDeSenha.java` | Sistema de login com tentativas limitadas e flag de controle |
@@ -98,6 +102,7 @@ O projeto mais completo do repositório — um sistema de gestão real com múlt
 ### 🔃 Estruturas-Condicionais
 
 **IF/**
+
 | Arquivo | Descrição |
 |---|---|
 | `CalculadoraImc.java` | Calculadora de IMC com classificação por faixa de peso |
@@ -107,6 +112,7 @@ O projeto mais completo do repositório — um sistema de gestão real com múlt
 | `ClassificadorDeTemperatura.java` | Classificação de temperatura em 5 faixas |
 
 **SWITCH/**
+
 | Arquivo | Descrição |
 |---|---|
 | `CalculadoraBasica.java` | Calculadora com as 4 operações matemáticas |
@@ -123,6 +129,20 @@ O projeto mais completo do repositório — um sistema de gestão real com múlt
 |---|---|
 | `GestorDeAlmoxarifado.java` | Sistema completo com cadastro, busca binária, Selection Sort e relatório |
 | `GestaoDeInventario.java` | Sistema de inventário com arrays paralelos e auditoria de estoque |
+
+---
+
+## 🏆 Projeto em Destaque: Gestor de Almoxarifado
+
+O projeto mais completo do repositório — um sistema de gestão real com múltiplos módulos integrados.
+
+**Funcionalidades:**
+
+- Cadastro de produtos com arrays paralelos sincronizados
+- Busca Binária para consulta eficiente por ID
+- Ordenação automática via Selection Sort antes da busca
+- Relatório geral com valor patrimonial total e contagem de itens
+- Alerta automático para produtos com estoque crítico
 
 ---
 
@@ -145,16 +165,12 @@ Você precisará do JDK 17 ou superior instalado.
 
 ```bash
 # Clone o repositório
-git clone [https://github.com/ramonzin11/Exerc-cios-java.git](https://github.com/ramonzin11/Exerc-cios-java.git)
+git clone https://github.com/ramonzin11/Exercicios-Java.git
+cd Exercicios-Java
 
-# Entre na pasta do repositório
-cd Exerc-cios-java
-
-# Navegue até a pasta do arquivo que deseja executar (ex: ARRAYS/Matrizes)
-cd ARRAYS/Matrizes
-
-# Compile o arquivo
-javac CadastroDeAlunos.java
+# Acesse a pasta do arquivo desejado e compile
+javac NomeDoArquivo.java
 
 # Execute
-java CadastroDeAlunos
+java NomeDoArquivo
+```
